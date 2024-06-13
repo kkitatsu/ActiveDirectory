@@ -15,7 +15,7 @@ look up the attackers Geolocation information and plot it on an Azure Sentinel M
 <br />
 
 <p align="center">
-<img src="https://imgur.com/a/activedirectorymap-IqJMn6s" height="85%" width="85%" alt="ActiveDirectoryMap"/>
+<img src="https://imgur.com/a/activedirectorymap-IqJMn6s.png" height="85%" width="85%" alt="ActiveDirectoryMap"/>
 </p>
 <h2>Languages Used</h2>
 
