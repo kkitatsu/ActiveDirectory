@@ -4,12 +4,11 @@
 
 
 <h2>Description</h2>
-<b>The Powershell script in this repository is responsible for parsing out Windows Event Log information for failed RDP attacks and using a third party API to collect geographic information about the attackers location.
+<b>The Powershell script in this repository is responsible for automating user list creation in the Active Directory.
 </b>
 <br />
 <br />
-The script is used in this demo where I setup Azure Sentinel (SIEM) and connect it to a live virtual machine acting as a honey pot.
-We will create two Virtual Machines on Oracle VM, one as a Domain controller running on Windows Server 19, and other as a client PC running Windows 10.
+The script is used in where I setup two Virtual Machines on Oracle VM, one as a Domain controller running on Windows Server 19, and other as a client PC running Windows 10.
 <br />
 <br />
 
@@ -20,19 +19,19 @@ We will create two Virtual Machines on Oracle VM, one as a Domain controller run
 
 - <b>PowerShell:</b> Automate creating users on Active Directory
 <p align="center">
-<img src="https://imgur.com/a/s4320sX.png" height="85%" width="85%" alt="Namecreator Powershell"/>
+<img src="https://imgur.com/Vs2JN4R.png" height="85%" width="85%" alt="Namecreator Powershell"/>
 </p>
 
-<h2>Attacks from various locations coming in; Custom logs being output with geodata</h2>
+<h2>Give IP address to internal NIC in Domain Controller</h2>
 
 <p align="center">
-<img src="https://imgur.com/kEJCJIL.png" height="85%" width="85%" alt="Image Analysis Dataflow"/>
+<img src="https://imgur.com/MTFSCiw.png" height="85%" width="85%" alt="Internal IP"/>
 </p>
 
-<h2>World map of incoming attacks after 2 hours (built custom logs including geodata)</h2>
+<h2>Add Domain Services</h2>
 
 <p align="center">
-<img src="https://imgur.com/dnYYySq.png" height="85%" width="85%" alt="Image Analysis Dataflow"/>
+<img src="https://imgur.com/14w7wS3.png" height="75%" width="75%" alt="Image Analysis Dataflow"/>
 </p>
 
 
