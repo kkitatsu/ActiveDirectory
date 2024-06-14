@@ -9,8 +9,7 @@
 <br />
 <br />
 The script is used in this demo where I setup Azure Sentinel (SIEM) and connect it to a live virtual machine acting as a honey pot.
-We will observe live attacks (RDP Brute Force) from all around the world. I will use a custom PowerShell script to
-look up the attackers Geolocation information and plot it on an Azure Sentinel Map!
+We will create two Virtual Machines on Oracle VM, one as a Domain controller running on Windows Server 19, and other as a client PC running Windows 10.
 <br />
 <br />
 
@@ -19,11 +18,10 @@ look up the attackers Geolocation information and plot it on an Azure Sentinel M
 </p>
 <h2>Languages Used</h2>
 
-- <b>PowerShell:</b> Extract RDP failed logon logs from Windows Event Viewer 
-
-<h2>Utilities Used</h2>
-
-- <b>ipgeolocation.io:</b> IP Address to Geolocation API
+- <b>PowerShell:</b> Automate creating users on Active Directory
+<p align="center">
+<img src="https://imgur.com/a/s4320sX.png" height="85%" width="85%" alt="Namecreator Powershell"/>
+</p>
 
 <h2>Attacks from various locations coming in; Custom logs being output with geodata</h2>
 
