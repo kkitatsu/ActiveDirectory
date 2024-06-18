@@ -34,6 +34,11 @@ The script is used in where I setup two Virtual Machines on Oracle VM, one as a 
 <img src="https://imgur.com/14w7wS3.png" height="75%" width="75%" alt="Image Analysis Dataflow"/>
 </p>
 
+<h2>Create admin account, adding to new domain previously created</h2>
+
+<p align="center">
+<img src="https://imgur.com/na0e1Nd.png" height="85%" width="85%" alt="Internal IP"/>
+</p>
 
 <!--
  ```diff
