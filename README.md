@@ -37,8 +37,33 @@ The script is used in where I setup two Virtual Machines on Oracle VM, one as a 
 <h2>Create admin account, adding to new domain previously created</h2>
 
 <p align="center">
-<img src="https://imgur.com/na0e1Nd.png" height="85%" width="85%" alt="Internal IP"/>
+<img src="https://imgur.com/na0e1Nd.png" height="65%" width="65%" alt="Internal IP"/>
 </p>
+
+<h2>Add DHCP Scope</h2>
+
+<p align="center">
+<img src="https://imgur.com/jBm1qS1.png" height="35%" width="35%" alt="Internal IP"/>
+</p>
+
+<h2>IP address is given to ClientPC, DNS server working as well</h2>
+
+<p align="center">
+<img src="https://imgur.com/6upmCB0.png" height="35%" width="35%" alt="Internal IP"/>
+</p>
+
+<h2>Change ClientPC name, and add to member of domain within ClientPC</h2>
+
+<p align="center">
+<img src="https://imgur.com/uxTB1Ap.png" height="35%" width="35%" alt="Internal IP"/>
+</p>
+
+<h2>Newly added ClientPC can be confirmed in DC</h2>
+
+<p align="center">
+<img src="https://imgur.com/RJRpzio.png" height="65%" width="65%" alt="Internal IP"/>
+</p>
+
 
 <!--
  ```diff
